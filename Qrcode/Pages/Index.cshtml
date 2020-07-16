@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript" language="javascript">
+    function doto() {
+        //alert(1);
+    }
+</script>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p><span>请输入链接地址</span> <input type="text" /></p>
+    <p><span>二维码中间logo</span> <input type="text" /></p>
+    <button type="button" id="doit" onclick="doto()">生成</button>
+    <a class="navbar-brand" asp-page="/Index">生成1</a>
+    <img src="http://image.lawxp.com/webimg/103108.png" alt="" id="img" style="width:100px;height:100px">
+</div>

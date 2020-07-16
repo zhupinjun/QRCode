@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="ThoughtWorks.QRCode" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Hy.Common">
+      <HintPath>wwwroot\lib\Hy.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+
+</Project>
